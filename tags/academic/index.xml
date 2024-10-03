@@ -5,7 +5,7 @@
     <link>https://example.com/tags/academic/</link>
       <atom:link href="https://example.com/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu7729264130191091259.png</url>
       <title>Academic</title>
@@ -13,112 +13,64 @@
     </image>
     
     <item>
-      <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>https://example.com/post/get-started/</link>
-      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/get-started/</guid>
-      <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
-
-
-
-&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
-  &lt;summary&gt;Table of Contents&lt;/summary&gt;
-  &lt;div class=&#34;text-sm&#34;&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#get-started&#34;&gt;Get Started&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#-click-here-to-become-a-sponsor-and-help-support-hugo-bloxs-future-httpshugobloxcomsponsor&#34;&gt;&lt;a href=&#34;https://hugoblox.com/sponsor/&#34;&gt;❤️ Click here to become a sponsor and help support Hugo Blox&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#ecosystem&#34;&gt;Ecosystem&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#inspiration&#34;&gt;Inspiration&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#features&#34;&gt;Features&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#themes&#34;&gt;Themes&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+      <title>Моя неделя с 30.09 по 5.10</title>
+      <link>https://example.com/post/post1/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/post1/</guid>
+      <description>&lt;p&gt;На этой неделе я наконец посмотрел расписание пар&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Непрерывная интеграция и непрерывное развертывание (CI/CD).</title>
+      <link>https://example.com/publication/publ1/</link>
+      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/publ1/</guid>
+      <description>&lt;h1 id=&#34;непрерывная-интеграция-и-непрерывное-развертывание-cicd&#34;&gt;Непрерывная интеграция и непрерывное развертывание (CI/CD)&lt;/h1&gt;
+&lt;h2 id=&#34;введение&#34;&gt;Введение&lt;/h2&gt;
+&lt;p&gt;CI/CD (Continuous Integration и Continuous Deployment/Delivery) — это набор практик и методологий, направленных на автоматизацию разработки, тестирования и развертывания программного обеспечения. CI/CD помогает ускорить процессы разработки и повысить качество продукта за счёт минимизации ручных действий, интеграции автоматизированного тестирования и автоматической доставки изменений в рабочую среду.&lt;/p&gt;
+&lt;h3 id=&#34;что-такое-ci&#34;&gt;Что такое CI?&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Непрерывная интеграция (Continuous Integration)&lt;/strong&gt; — это практика, при которой разработчики часто объединяют свои изменения с основным репозиторием. Каждый раз при добавлении изменений запускается процесс автоматизированного тестирования и сборки проекта, что позволяет быстро выявлять ошибки и обеспечивать стабильность кода.&lt;/p&gt;
+&lt;h3 id=&#34;преимущества-непрерывной-интеграции&#34;&gt;Преимущества непрерывной интеграции:&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
-&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ранняя диагностика ошибок&lt;/strong&gt;: Постоянная интеграция изменений позволяет быстро выявлять ошибки на ранних стадиях.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Меньше конфликтов кода&lt;/strong&gt;: Регулярное объединение изменений снижает риск появления конфликтов в коде между разработчиками.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Быстрая обратная связь&lt;/strong&gt;: Разработчики получают обратную связь о состоянии своего кода сразу после коммита.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Автоматизация тестирования&lt;/strong&gt;: Автоматические тесты позволяют убедиться, что новый код не нарушает работу существующих функций.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;get-started&#34;&gt;Get Started&lt;/h3&gt;
+&lt;h3 id=&#34;что-такое-cd&#34;&gt;Что такое CD?&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Непрерывная доставка (Continuous Delivery)&lt;/strong&gt; и &lt;strong&gt;непрерывное развертывание (Continuous Deployment)&lt;/strong&gt; — это этапы, следующие за непрерывной интеграцией. Они направлены на автоматизацию процесса доставки программного обеспечения от разработки до эксплуатации.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;👉 
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Непрерывная доставка (Continuous Delivery)&lt;/strong&gt;: После успешной интеграции и тестирования изменения автоматически подготавливаются к развертыванию. Однако окончательное развертывание в рабочую среду выполняется вручную.&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;📚 
-&lt;/li&gt;
-&lt;li&gt;💬 
- or 
-&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: 
- 
- #MadeWithHugoBlox&lt;/li&gt;
-&lt;li&gt;💡 
-&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating Hugo Blox?&lt;/strong&gt; View the 
- and 
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Непрерывное развертывание (Continuous Deployment)&lt;/strong&gt;: Автоматический процесс, при котором каждое изменение, прошедшее все тесты, немедленно разворачивается в рабочую среду без необходимости ручного вмешательства.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
-&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
-&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-hugo-bloxs-future-httpshugobloxcomsponsor&#34;&gt;
-&lt;/h3&gt;
-&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock 
- awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;h3 id=&#34;преимущества-непрерывной-доставки-и-развертывания&#34;&gt;Преимущества непрерывной доставки и развертывания:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Быстрое развертывание&lt;/strong&gt;: Обновления программного обеспечения могут быть доставлены пользователям быстрее, что повышает удовлетворённость клиентов.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Меньше ручного труда&lt;/strong&gt;: Автоматизация сокращает количество действий, которые разработчикам и DevOps-командам нужно выполнять вручную.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Повышенная стабильность&lt;/strong&gt;: Каждое изменение проверяется и тестируется перед развертыванием, что минимизирует риски ошибок в продакшн-среде.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Постоянная готовность к релизу&lt;/strong&gt;: Проект всегда готов к выпуску, что позволяет разворачивать новые версии в любое время.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;этапы-cicd&#34;&gt;Этапы CI/CD&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Разработка и коммиты&lt;/strong&gt;: Разработчики создают код и отправляют изменения в систему контроля версий (например, Git).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Автоматическое тестирование (CI)&lt;/strong&gt;: Каждый коммит запускает серию автоматических тестов. Если тесты проходят успешно, код считается готовым для следующего этапа.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Сборка и подготовка к развертыванию&lt;/strong&gt;: После успешного тестирования проект автоматически собирается, и все артефакты готовы к развертыванию.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Автоматическое или ручное развертывание (CD)&lt;/strong&gt;: Код может быть автоматически развёрнут в рабочую среду (в случае Continuous Deployment) или быть готовым к ручному развертыванию (в случае Continuous Delivery).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;примеры-инструментов-cicd&#34;&gt;Примеры инструментов CI/CD&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;
-:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jenkins&lt;/strong&gt;: Популярный инструмент для организации CI/CD процессов с открытым исходным кодом.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitLab CI&lt;/strong&gt;: Интегрированный CI/CD инструмент в GitLab.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CircleCI&lt;/strong&gt;: Облачная платформа для CI/CD.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Travis CI&lt;/strong&gt;: Сервис для автоматического тестирования и сборки проектов.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;
- are building with this template.&lt;/p&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with no-code 
- and 
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in 
-, 
-, or 
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable 
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code syntax highlighting and LaTeX math supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - 
-, 
-, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one-page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 35+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Hugo Blox and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.&lt;/p&gt;
-&lt;p&gt;
- for your site. Themes are fully customizable.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present 
-.&lt;/p&gt;
-&lt;p&gt;Released under the 
- license.&lt;/p&gt;
+&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
+&lt;p&gt;CI/CD автоматизирует ключевые процессы разработки, такие как тестирование, сборка и развертывание, что повышает эффективность работы команд и улучшает качество программного обеспечения. Внедрение CI/CD позволяет быстрее и безопаснее выпускать обновления, минимизируя количество ошибок и уменьшая время, необходимое для выхода новых функций на рынок.&lt;/p&gt;
 </description>
     </item>
     
