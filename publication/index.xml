@@ -5,12 +5,102 @@
     <link>https://example.com/publication/</link>
       <atom:link href="https://example.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu7729264130191091259.png</url>
       <title>Publications</title>
       <link>https://example.com/publication/</link>
     </image>
+    
+    <item>
+      <title>Язык разметки LaTeX</title>
+      <link>https://example.com/publication/publ2/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/publ2/</guid>
+      <description>&lt;h1 id=&#34;язык-разметки-latex&#34;&gt;Язык разметки LaTeX&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;LaTeX&lt;/strong&gt; (произносится как «Латех» или «Латэк») — это язык разметки, специально разработанный для подготовки сложных документов, таких как научные статьи, книги, дипломы, презентации и многое другое. LaTeX основан на системе типографической разметки &lt;strong&gt;TeX&lt;/strong&gt;, созданной Дональдом Кнутом, и предоставляет удобные инструменты для оформления текста с акцентом на высокое качество верстки.&lt;/p&gt;
+&lt;h2 id=&#34;основные-особенности-latex&#34;&gt;Основные особенности LaTeX&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Высокое качество типографики&lt;/strong&gt; — LaTeX автоматически распределяет текст и элементы, обеспечивая правильные отступы, переносы и баланс между текстом и математическими формулами.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Простота работы с математикой&lt;/strong&gt; — LaTeX предоставляет мощные инструменты для оформления сложных математических выражений и символов.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Структурированность&lt;/strong&gt; — документы в LaTeX разделяются на логические блоки: разделы, главы, списки, таблицы и рисунки.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Автоматизация ссылок и библиографий&lt;/strong&gt; — LaTeX позволяет легко добавлять сноски, автоматические перекрестные ссылки и оформлять библиографии.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Гибкость&lt;/strong&gt; — LaTeX можно настроить с помощью пакетов, чтобы расширить его функционал для работы с графиками, таблицами и другими элементами.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;пример-latex-документа&#34;&gt;Пример LaTeX-документа&lt;/h2&gt;
+&lt;p&gt;Ниже приведен простой пример документа на LaTeX, который включает текст, математическую формулу и простое оформление:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\documentclass&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;article&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\usepackage&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;[utf8]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;inputenc&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\title&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;Пример документа на LaTeX&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\author&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;Автор&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\date&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\today&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;document&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\maketitle&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\section&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;Введение&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Это простой пример документа на LaTeX. Математическая формула оформляется следующим образом:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;\[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;E &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; mc^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;\]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\section&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;Заключение&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;LaTeX — мощный инструмент для создания научных и технических документов.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;document&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;почему-latex-популярен-в-науке&#34;&gt;Почему LaTeX популярен в науке?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Математические формулы&lt;/strong&gt; — LaTeX предлагает удобный и мощный синтаксис для работы с математикой, поддерживая как простые уравнения, так и сложные символы.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Автоматизация оформления&lt;/strong&gt; — оформление текста и элементов происходит автоматически по стандартам научных публикаций, что облегчает процесс подготовки работ.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Удобство вёрстки&lt;/strong&gt; — документы, созданные в LaTeX, легко поддерживать в актуальном состоянии, даже если они содержат множество ссылок, рисунков или таблиц.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;пример-оформления-математической-формулы&#34;&gt;Пример оформления математической формулы&lt;/h2&gt;
+&lt;p&gt;Пример оформления интеграла с LaTeX:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;\[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\int&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_a^b f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\,&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; dx &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;\]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Этот код создаст красивое математическое выражение для интеграла. В отличие от многих других систем разметки, LaTeX обеспечивает профессиональный вид математических формул.&lt;/p&gt;
+&lt;h2 id=&#34;преимущества-и-недостатки-latex&#34;&gt;Преимущества и недостатки LaTeX&lt;/h2&gt;
+&lt;h3 id=&#34;преимущества&#34;&gt;Преимущества:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Высокое качество оформления&lt;/strong&gt; — особенно для сложных текстов и научных работ.
+Мощная система для работы с формулами.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Гибкость&lt;/strong&gt; — возможность расширения через дополнительные пакеты (например, для работы с графиками и таблицами).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;недостатки&#34;&gt;Недостатки:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Крутая кривая обучения&lt;/strong&gt; — для освоения LaTeX нужно время, так как форматирование делается через код.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Неинтерактивная среда&lt;/strong&gt; — редактирование документов происходит в виде текстовых файлов, что может быть непривычно для новичков.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;где-использовать-latex&#34;&gt;Где использовать LaTeX?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Научные статьи и диссертации&lt;/strong&gt; — LaTeX стал стандартом в научной среде.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Учебные пособия и книги&lt;/strong&gt; — многие издательства используют LaTeX для вёрстки учебников и научных книг.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Презентации&lt;/strong&gt; — с помощью пакета Beamer можно создавать презентации.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Техническая документация&lt;/strong&gt; — удобен для создания документации к проектам, где требуется структурированность и работа с формулами.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
+&lt;p&gt;LaTeX — это мощный и гибкий инструмент для работы с текстом, который стал стандартом в академической и научной среде. Несмотря на высокую кривую обучения, его преимущества в оформлении сложных текстов и формул делают его идеальным выбором для создания профессиональных документов.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Непрерывная интеграция и непрерывное развертывание (CI/CD).</title>

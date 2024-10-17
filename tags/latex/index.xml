@@ -1,40 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Academic CV Theme</title>
-    <link>https://example.com/</link>
-      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
-    <description>Hugo Academic CV Theme</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <title>LaTeX | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/latex/</link>
+      <atom:link href="https://example.com/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <description>LaTeX</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu7729264130191091259.png</url>
-      <title>Hugo Academic CV Theme</title>
-      <link>https://example.com/</link>
+      <title>LaTeX</title>
+      <link>https://example.com/tags/latex/</link>
     </image>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>https://example.com/event/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://example.com/event/example/</guid>
-      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/span&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Hugo Blox Builder&amp;rsquo;s 
- feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
-.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including 
- such as image galleries, can be added to the body of this page.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Язык разметки LaTeX</title>
@@ -124,85 +100,6 @@
 &lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
 &lt;p&gt;LaTeX — это мощный и гибкий инструмент для работы с текстом, который стал стандартом в академической и научной среде. Несмотря на высокую кривую обучения, его преимущества в оформлении сложных текстов и формул делают его идеальным выбором для создания профессиональных документов.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Моя неделя с 12.10 по 19.10</title>
-      <link>https://example.com/post/post2/</link>
-      <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post2/</guid>
-      <description>&lt;p&gt;На этой неделе я наконец посмотрел расписание пар&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Моя неделя с 30.09 по 5.10</title>
-      <link>https://example.com/post/post1/</link>
-      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post1/</guid>
-      <description>&lt;p&gt;На этой неделе я наконец посмотрел расписание пар&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Непрерывная интеграция и непрерывное развертывание (CI/CD).</title>
-      <link>https://example.com/publication/publ1/</link>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/publ1/</guid>
-      <description>&lt;h1 id=&#34;непрерывная-интеграция-и-непрерывное-развертывание-cicd&#34;&gt;Непрерывная интеграция и непрерывное развертывание (CI/CD)&lt;/h1&gt;
-&lt;h2 id=&#34;введение&#34;&gt;Введение&lt;/h2&gt;
-&lt;p&gt;CI/CD (Continuous Integration и Continuous Deployment/Delivery) — это набор практик и методологий, направленных на автоматизацию разработки, тестирования и развертывания программного обеспечения. CI/CD помогает ускорить процессы разработки и повысить качество продукта за счёт минимизации ручных действий, интеграции автоматизированного тестирования и автоматической доставки изменений в рабочую среду.&lt;/p&gt;
-&lt;h3 id=&#34;что-такое-ci&#34;&gt;Что такое CI?&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Непрерывная интеграция (Continuous Integration)&lt;/strong&gt; — это практика, при которой разработчики часто объединяют свои изменения с основным репозиторием. Каждый раз при добавлении изменений запускается процесс автоматизированного тестирования и сборки проекта, что позволяет быстро выявлять ошибки и обеспечивать стабильность кода.&lt;/p&gt;
-&lt;h3 id=&#34;преимущества-непрерывной-интеграции&#34;&gt;Преимущества непрерывной интеграции:&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Ранняя диагностика ошибок&lt;/strong&gt;: Постоянная интеграция изменений позволяет быстро выявлять ошибки на ранних стадиях.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Меньше конфликтов кода&lt;/strong&gt;: Регулярное объединение изменений снижает риск появления конфликтов в коде между разработчиками.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Быстрая обратная связь&lt;/strong&gt;: Разработчики получают обратную связь о состоянии своего кода сразу после коммита.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Автоматизация тестирования&lt;/strong&gt;: Автоматические тесты позволяют убедиться, что новый код не нарушает работу существующих функций.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;что-такое-cd&#34;&gt;Что такое CD?&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Непрерывная доставка (Continuous Delivery)&lt;/strong&gt; и &lt;strong&gt;непрерывное развертывание (Continuous Deployment)&lt;/strong&gt; — это этапы, следующие за непрерывной интеграцией. Они направлены на автоматизацию процесса доставки программного обеспечения от разработки до эксплуатации.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Непрерывная доставка (Continuous Delivery)&lt;/strong&gt;: После успешной интеграции и тестирования изменения автоматически подготавливаются к развертыванию. Однако окончательное развертывание в рабочую среду выполняется вручную.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Непрерывное развертывание (Continuous Deployment)&lt;/strong&gt;: Автоматический процесс, при котором каждое изменение, прошедшее все тесты, немедленно разворачивается в рабочую среду без необходимости ручного вмешательства.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;преимущества-непрерывной-доставки-и-развертывания&#34;&gt;Преимущества непрерывной доставки и развертывания:&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Быстрое развертывание&lt;/strong&gt;: Обновления программного обеспечения могут быть доставлены пользователям быстрее, что повышает удовлетворённость клиентов.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Меньше ручного труда&lt;/strong&gt;: Автоматизация сокращает количество действий, которые разработчикам и DevOps-командам нужно выполнять вручную.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Повышенная стабильность&lt;/strong&gt;: Каждое изменение проверяется и тестируется перед развертыванием, что минимизирует риски ошибок в продакшн-среде.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Постоянная готовность к релизу&lt;/strong&gt;: Проект всегда готов к выпуску, что позволяет разворачивать новые версии в любое время.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;этапы-cicd&#34;&gt;Этапы CI/CD&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Разработка и коммиты&lt;/strong&gt;: Разработчики создают код и отправляют изменения в систему контроля версий (например, Git).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Автоматическое тестирование (CI)&lt;/strong&gt;: Каждый коммит запускает серию автоматических тестов. Если тесты проходят успешно, код считается готовым для следующего этапа.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Сборка и подготовка к развертыванию&lt;/strong&gt;: После успешного тестирования проект автоматически собирается, и все артефакты готовы к развертыванию.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Автоматическое или ручное развертывание (CD)&lt;/strong&gt;: Код может быть автоматически развёрнут в рабочую среду (в случае Continuous Deployment) или быть готовым к ручному развертыванию (в случае Continuous Delivery).&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;примеры-инструментов-cicd&#34;&gt;Примеры инструментов CI/CD&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Jenkins&lt;/strong&gt;: Популярный инструмент для организации CI/CD процессов с открытым исходным кодом.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GitLab CI&lt;/strong&gt;: Интегрированный CI/CD инструмент в GitLab.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CircleCI&lt;/strong&gt;: Облачная платформа для CI/CD.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Travis CI&lt;/strong&gt;: Сервис для автоматического тестирования и сборки проектов.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;CI/CD автоматизирует ключевые процессы разработки, такие как тестирование, сборка и развертывание, что повышает эффективность работы команд и улучшает качество программного обеспечения. Внедрение CI/CD позволяет быстрее и безопаснее выпускать обновления, минимизируя количество ошибок и уменьшая время, необходимое для выхода новых функций на рынок.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Опыт</title>
-      <link>https://example.com/experience/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/experience/</guid>
-      <description></description>
     </item>
     
   </channel>
